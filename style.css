@@ -25,9 +25,14 @@ a{
   opacity: 0.9;
 }
 
+a:hover{
+  opacity: 1;
+}
+
 h1{
   font-size: 3rem;
   font-weight: 700;
+  color: #fff;
   margin: 0 0 1.5rem;
 }
 
@@ -65,4 +70,29 @@ header nav li:last-child{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media all and (max-width: 800px){
+  body{
+    font-size: 0.9rem;
+  }
+  header{
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  header h2{
+    margin-bottom: 15px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .cover{
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 360px){
+  header nav li{
+    margin: 0 10px;
+  }
 }
