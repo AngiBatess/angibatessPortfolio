@@ -62,16 +62,17 @@ header nav li:last-child {
 }
 
 .gallery{
-  /* position: absolute; */
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 10 30px;
+  margin: 10px 50px;
 }
 
 .gallery img{
   width: 230px;
   padding: 5px;
-  transition: 0.5s all ease-in-out;
+  transition: 1s;
+}
+
+.gallery img:hover{
+  transform: scale(1.1);
 }
 
 @media all and (max-width: 800px) {
