@@ -5,7 +5,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background: linear-gradient(rgba(39, 68, 131, 0.5), rgba(77, 40, 105, 0.5)), url(galaxy.jpg);
+  background-image: url(images/bg1.png);
+  /* background: linear-gradient(rgba(39, 68, 131, 0.2), rgba(77, 40, 105, 0.2)), url(galaxy.jpg); */
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -23,6 +24,11 @@ a {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.9;
+}
+h2 img{
+  max-width: 100px;
+  max-height: 100px;
+  padding: auto;
 }
 
 a:hover {
@@ -42,7 +48,7 @@ header {
   align-items: center;
   color: #fff;
   /* position: fixed; */
-  padding: 10px 100px 0;
+  padding: 10px 30px 0;
 }
 
 header nav ul {

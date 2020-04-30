@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+
   <link rel="stylesheet" href="contact.css">
   <title>My Portfolio Site</title>
 </head>
@@ -22,31 +23,31 @@
       </nav>
     </header>
   </div>
-<div class="contact-form">
-  <h1>Contact Me</h1>
-  <div class="txtb">
-    <label>Full Name :</label>
-    <input type="text" name="" value="" placeholder="Enter Your Name">
-  </div>
+   <div class="contact-form">
+    <h1>Contact Me</h1>
+    <div class="txtb">
+      <form id="contact-form" action="contact-form-handler.php" method="post">
+      <label>Full Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Name">
+    </div>
 
-  <div class="txtb">
-    <label>Email :</label>
-    <input type="email" name="" value="" placeholder="Enter Your Email">
-  </div>
+    <div class="txtb">
+      <label>Email :</label>
+      <input type="email" name="" value="" placeholder="Enter Your Email">
+    </div>
 
-  <div class="txtb">
-    <label>Phone Number :</label>
-    <input type="text" name="" value="" placeholder="Enter Your Phone Number">
-  </div>
+    <div class="txtb">
+      <label>Phone Number :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Phone Number">
+    </div>
 
-  <div class="txtb">
-    <label>Message :</label>
-    <textarea></textarea>
-  </div>
-
-<a class="btn">Send</a>
-
-</div>
+    <div class="txtb">
+      <label>Message :</label>
+      <textarea></textarea>
+    </div>
+<button type="submit" name="submit" class="btn">SEND</button>
+<!-- <a class="btn">Send</a> -->
+    </form>
 </body>
 
 </html>
