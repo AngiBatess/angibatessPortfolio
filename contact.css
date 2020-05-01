@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Futura', sans-serif;
   margin: 0;
   background: linear-gradient(rgba(39, 68, 131, 0.5), rgba(77, 40, 105, 0.5)), url(galaxy.jpg);
   background-size: cover;
