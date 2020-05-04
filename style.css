@@ -91,7 +91,26 @@ svg circle {
   stroke-dashoffset: 500;
   stroke-width: 4;
 }
-
+footer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  z-index: -1;
+  background: rgba(13, 5, 92, 0.63);
+  text-align: center;
+}
+footer img{
+  max-width: 40px;
+  max-height: 40px;
+  padding: auto;
+}
+footer i{
+font-size: 60px;
+  color: #fff;
+}
 @for $i from 1 through 5 {
   svg circle:nth-child(#{$i}) {
     stroke: hsl($i*180, 81%, 76%);

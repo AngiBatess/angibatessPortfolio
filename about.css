@@ -149,7 +149,26 @@ header nav li:last-child {
   bottom: 0;
   z-index: -1;
 }
-
+footer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  z-index: -1;
+  background: rgba(13, 5, 92, 0.63);
+  text-align: center;
+}
+footer img{
+  max-width: 40px;
+  max-height: 40px;
+  padding: auto;
+}
+footer i{
+font-size: 60px;
+  color: #fff;
+}
 @media all and (max-width: 800px) {
   body {
     font-size: 0.9rem;
