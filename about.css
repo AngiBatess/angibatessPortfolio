@@ -166,8 +166,7 @@ footer img{
   padding: auto;
 }
 footer i{
-font-size: 60px;
-  color: #fff;
+  padding: 10px;
 }
 @media all and (max-width: 800px) {
   body {

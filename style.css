@@ -40,7 +40,14 @@ h1 {
   color: #fff;
   margin: 0 0 .5rem;
 }
-
+h3{
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 .5rem;
+  background: -webkit-linear-gradient(#7aeaed, #f16bd7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 header {
   width: 100%;
   display: flex;
@@ -108,8 +115,7 @@ footer img{
   padding: auto;
 }
 footer i{
-font-size: 60px;
-  color: #fff;
+  padding: 10px;
 }
 @for $i from 1 through 5 {
   svg circle:nth-child(#{$i}) {
