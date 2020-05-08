@@ -99,7 +99,8 @@ svg circle {
   stroke-width: 4;
 }
 footer {
-  position: relative;
+  /* relative usually */
+  position: fixed;
   height: auto;
   width: 100%;
   bottom: 0;
