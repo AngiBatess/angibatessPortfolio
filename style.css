@@ -100,7 +100,7 @@ svg circle {
 }
 footer {
   /* relative usually */
-  position: fixed;
+  position: relative;
   height: auto;
   width: 100%;
   bottom: 0;
