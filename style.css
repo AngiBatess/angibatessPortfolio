@@ -54,7 +54,7 @@ header {
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  position: fixed;
+  /* position: fixed; */
   padding: 10px 100px 0;
 }
 
@@ -75,7 +75,7 @@ header nav li:last-child {
 }
 
 .cover {
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   padding: 20px 50px;
   display: flex;
@@ -97,6 +97,52 @@ svg circle {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 4;
+}
+.img-cordian{
+  /* padding: 5px 0; */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover{
+  flex: 2;
+}
+
+.item-1 {
+  background-image: url('GraphicBig/bp1.png');
+}
+
+.item-2 {
+  background-image: url('GraphicBig/bp13.png');
+}
+
+.item-3 {
+  background-image: url('GraphicBig/bp14.png');
+}
+
+.item-4 {
+  background-image: url('webBig/bword5.png');
+}
+
+.item-5 {
+  background-image: url('webBig/bin4.png');
 }
 footer {
   /* relative usually */
