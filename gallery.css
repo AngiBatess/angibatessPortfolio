@@ -68,7 +68,7 @@ header nav li:last-child {
 }
 
 .gallery{
-  margin: 20px 20px 0px 125px;
+  margin: 20px 20px 0px 130px;
 }
 .gallery a{
   transform: scale(15);
@@ -76,14 +76,20 @@ header nav li:last-child {
 .gallery img{
   max-width: 230px;
   max-height: 300px;
-  padding: 20px;
+  padding: 25px;
   transition: 1s;
 }
 
 .gallery img:hover{
   transform: scale(1.1);
 }
-/* 
+.gallery button{
+  max-width: 230px;
+  max-height: 300px;
+  padding: 25px;
+  transition: 1s;
+}
+/*
 footer {
   position: relative;
   height: auto;
