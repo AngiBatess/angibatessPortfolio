@@ -73,7 +73,7 @@ header nav li:last-child {
   left: 50%;
   transform: translate(-50%,15%);
 max-width: 350px;
-background: rgba(53, 64, 209, 0.81);
+background: #503382;
 width: 100%;
 padding: 15px;
 border-radius: 5px;
@@ -83,8 +83,8 @@ box-shadow: 4px 4px 2px rgba(241, 55, 221, 0.84);
 .wrapper h2{
   text-align: center;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2px; */
   color: #fff;
   font-family: 'futura', sans-serif;
 }
@@ -103,6 +103,12 @@ box-shadow: 4px 4px 2px rgba(241, 55, 221, 0.84);
 .wrapper textarea{
   height: 50px;
   resize: none;
+;}
+.wrapper p{
+  text-decoration: none;
+font-family: 'futura', sans-serif;
+font-size: 18px;
+font-weight: 400;
 }
 
 .wrapper .btn input[type="submit"]{
@@ -110,10 +116,10 @@ box-shadow: 4px 4px 2px rgba(241, 55, 221, 0.84);
   margin-top: 10px;
   padding: 10px;
   width: 100%;
-  background: rgb(223, 195, 255);
-  color: #210c63;
+  background: rgba(242, 143, 232, 0.93);
+  color: #fff;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-weight: bold;
   border-radius: 25px;
   cursor: pointer;
@@ -126,6 +132,14 @@ box-shadow: 4px 4px 2px rgba(241, 55, 221, 0.84);
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
+}
+.gif{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  text-align: center;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 footer {
